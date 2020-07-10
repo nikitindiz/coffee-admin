@@ -3,6 +3,7 @@ const { PasswordAuthStrategy } = require('@keystonejs/auth-password');
 const { Text, Checkbox, Password } = require('@keystonejs/fields');
 const { GraphQLApp } = require('@keystonejs/app-graphql');
 const { AdminUIApp } = require('@keystonejs/app-admin-ui');
+
 const initialiseData = require('./initial-data');
 
 const { MongooseAdapter: Adapter } = require('@keystonejs/adapter-mongoose');

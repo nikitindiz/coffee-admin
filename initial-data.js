@@ -13,6 +13,10 @@ module.exports = async keystone => {
         count
       }
     }`,
+
+    context: keystone.createContext({
+      skipAccessControl: process.env.NODE_ENV !== 'production'
+    }),
   });
 
   if (count === 0) {
@@ -26,6 +30,9 @@ module.exports = async keystone => {
             }
           }`,
       variables: { password, email },
+      context: keystone.createContext({
+        skipAccessControl: process.env.NODE_ENV !== 'production'
+      })
     });
 
     console.log(`
