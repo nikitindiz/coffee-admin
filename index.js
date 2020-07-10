@@ -11,7 +11,7 @@ const initialiseData = require('./initial-data');
 const { MongooseAdapter: Adapter } = require('@keystonejs/adapter-mongoose');
 
 const PROJECT_NAME = 'We Love Caffeine';
-const adapterConfig = { mongoUri: 'mongodb+srv://db-user:db-password@cluster0.pryys.mongodb.net/coffee-app?retryWrites=true&w=majority' };
+const adapterConfig = { mongoUri: process.env.MONGO_URI };
 
 
 const keystone = new Keystone({
