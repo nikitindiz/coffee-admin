@@ -1821,6 +1821,24 @@
     "@keystonejs/fields" "^13.0.0"
     react "^16.13.1"
 
+"@keystonejs/fields-wysiwyg-tinymce@^5.3.2":
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/@keystonejs/fields-wysiwyg-tinymce/-/fields-wysiwyg-tinymce-5.3.2.tgz#bde97e5cb73d9971284dc6edc991fbfbb7cb2bad"
+  integrity sha512-pHq9OT04ka57lUbGtc0m95EiSaPNX77Ywf4AVqeNu8li3b2qr3s2AnFM19UPiTh7YxvC9Y7jTdXlR3x1iRMjMQ==
+  dependencies:
+    "@arch-ui/fields" "^3.0.2"
+    "@arch-ui/icons" "^0.1.1"
+    "@arch-ui/input" "^0.1.10"
+    "@arch-ui/theme" "^0.0.10"
+    "@babel/runtime" "^7.8.4"
+    "@emotion/core" "^10.0.28"
+    "@keystonejs/build-field-types" "^5.2.8"
+    "@keystonejs/fields" "^13.0.2"
+    "@tinymce/tinymce-react" "^3.5.0"
+    prop-types "^15.7.2"
+    react "^16.13.1"
+    tinymce "^5.2.2"
+
 "@keystonejs/fields@^13.0.0", "@keystonejs/fields@^13.0.2":
   version "13.0.2"
   resolved "https://registry.yarnpkg.com/@keystonejs/fields/-/fields-13.0.2.tgz#b513fe2a705b6d4f9752513b98651887f93494d6"
@@ -2091,6 +2109,13 @@
   dependencies:
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
+
+"@tinymce/tinymce-react@^3.5.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@tinymce/tinymce-react/-/tinymce-react-3.6.0.tgz#6e33e89b7bb0240c4ffa892a8e1924688f479b4b"
+  integrity sha512-XSyAx9Md9+Ghl3UK0YtBQxaS2dCepqtOKTjYmBS4xTAzSu1UABd44WT84B8CUCd/bdT0fv1Pd51dSbpgJ8713w==
+  dependencies:
+    prop-types "^15.6.2"
 
 "@types/accepts@*", "@types/accepts@^1.3.5":
   version "1.3.5"
@@ -8981,6 +9006,11 @@ tinycolor2@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
   integrity sha1-9PrTM0R7wLB9TcjpIJ2POaisd+g=
+
+tinymce@^5.2.2:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.4.1.tgz#4c101e78cbd22c148d6013f7c66eb0cb480723db"
+  integrity sha512-eUjwDVCTSHSnFfpzX5TjTHXsGj5gvPQwzo3RFDF374gfK5voHqcRGojvQnu4NtNW1BAb012/KW1tkXBbUrEveg==
 
 tmp@^0.0.33:
   version "0.0.33"
